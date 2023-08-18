@@ -100,12 +100,14 @@ ul{
     justify-content: space-around;
     align-items: center;
     margin:200px auto;
+    width: 50%;
 
 }
 
 .btns-actions div{
     width:200px;
     height: 60px;
+    margin:10px;
     border-radius: 10px;
     background-color: #CB290B;
     display: flex;
