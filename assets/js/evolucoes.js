@@ -1,5 +1,5 @@
 function BuscarPokemons() {
-    const nomePokemon = document.getElementById("inputPokemon").value
+    const nomePokemon = document.getElementById("inputPokemon").value.toLowerCase();
     
     const url = `https://pokeapi.co/api/v2/pokemon/${nomePokemon}`;
     
