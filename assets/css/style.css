@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 49, 49);
+}
+
+header img{
+    width: 50px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header ul li{
+    color: white;
+    margin: 20px;
+}
+body{
+    background-color: black;
+}
+
+h1, p{
+    text-align: center;
+    color: white;
+    margin:20px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.armazenamento{
+    width:250px;
+    background-color: rgb(20, 73, 55);
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.armazenamento li{
+    list-style: none;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.armazenamento img{
+    width: 100px;
+    height: 100px;
+}
+
+.armazenamentoDados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.armazenamentoDados p{
+    background-color: white;
+    margin:5px;
+    border-radius: 20px;
+    padding:5px;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    ;
+}
+
+.btns-actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:200px auto;
+
+}
+
+.btns-actions div{
+    width:200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #CB290B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
